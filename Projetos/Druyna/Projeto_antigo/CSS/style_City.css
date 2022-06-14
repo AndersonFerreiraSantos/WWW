@@ -1,0 +1,201 @@
+.container{
+   margin: 0;
+   padding: 0;
+}
+
+.city_Block0_Camada0{
+    height: 900px;
+    width: 1800px; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+/*fixa as imagem abaixo da tag FIGURE com a class=city...*/
+.container figure.city_Block0_Camada0 img{
+    position:fixed; /*Fixa as imagem em uma camada mãe que nesse caso seria a figure (eu acho...)*/
+    /*padding-left: 15%; /*movimenta a camada inteira junto com os elementos fixados nela*/      
+}
+
+/*Margin define uma distancia da imagem até a borda sem deixar elmentado, ja o padding deixa.*/
+.icon_armazem{
+    margin-left: 600px; /*movimentar a img*/
+    margin-top: 430px; /*movimentar a img*/
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icon_banco{
+   margin-left: 395px; /*movimentar a img*/
+   margin-top: 300px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.icon_mina{
+   margin-left: 420px; /*movimentar a img*/
+   margin-top: 90px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.icon_mercado{
+   margin-left: 960px; /*movimentar a img*/
+   margin-top: 420px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.bandeira_giff1{
+    margin-left: 444px;
+    margin-top: 253px;
+ }
+ .bandeira_giff2{
+    margin-left: 1195px;
+    margin-top: 295px;
+ }
+ .bandeira_giff3{
+    margin-left: 763px;
+    margin-top: 327px;
+ }
+ .bandeira_giff4{
+    margin-left: 1118px;
+    margin-top: 680px;
+ }
+ .bandeira_giff5{
+    margin-left: 980px;
+    margin-top: 657px;
+ }
+ .bandeira_giff6{
+    margin-left: 538px;
+    margin-top: 645px;
+ }
+ .bandeira_giff7{
+    margin-left: 430px;
+    margin-top: 626px;
+ }
+ .bandeira_giff8{
+    margin-left: 46px;
+    margin-top: 557px;
+ }
+ .bandeira_giff9{
+    margin-left: 75px;
+    margin-top: 441px;
+ }
+
+.text_logout a{
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+   position: absolute;
+   border-radius: 10px;
+   text-decoration: none;
+   background-color: rgba(184, 119, 0, 0.774);
+   color: #666;
+   padding: 8px;
+   width: 90px;
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text_logout a:hover{
+   background-color: rgb(255, 0, 0);
+   color: white;
+}
+
+.container figure.city_Block0_Camada0 a{
+   position:fixed; /*Fixa as imagem em uma camada mãe que nesse caso seria a figure (eu acho...)*/
+   /*padding-left: 15%; /*movimenta a camada inteira junto com os elementos fixados nela*/      
+}
+
+.text_usuario{
+   background-color: rgba(0, 0, 0, 0.3);
+   padding: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 30px;
+   font-weight:bold;
+   color: rgb(255, 255, 255);
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 700px;
+   margin-top: 830px;
+}
+
+/*----------------------------------Menu Lateral------------------------------------*/
+
+.menu_lateral {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   position: absolute;
+   margin-left:1600px;
+   margin-top:200px;
+}
+.menu_lateral a:target{
+   background: rgba(192, 147, 0, 0.2);
+   border-radius: 10px;
+   color: #666;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 8px;
+   display: block;
+}
+
+.menu_lateral a{
+   background: rgba(184, 119, 0, 0.774);
+   border-radius: 10px;
+   color: #666;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 8px;
+   display: block;
+}
+
+/* Hover é uma ação que ocorre quando colocamos mouse em cima do bjeto referenciado*/
+.menu_lateral a:hover {
+   background: rgb(255, 196, 0); 
+   color: rgb(255, 255, 255);
+}
+.menu_lateral1{
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+
+.menu_lateral2{
+   margin-top: 50px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+  
+}
+.menu_lateral3{
+   margin-top: 100px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral4{
+   margin-top: 150px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral5{
+   text-decoration: none;
+   margin-top: 200px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px; 
+}
+

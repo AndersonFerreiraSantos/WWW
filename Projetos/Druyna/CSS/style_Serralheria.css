@@ -1,0 +1,324 @@
+#bg_serralheria{
+   width: 100%;
+   padding: 100%;
+   top:0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: fixed;
+   display: none;
+}
+
+#bg_serralheria:target ~ .box_serralheria{
+   top:0px;
+}
+
+#bg_serralheria:target{
+   display: block;
+}
+
+.box_serralheria{
+   width: 1200;
+   height: 820;
+   position: absolute;
+   margin-left: 250px;
+   margin-top: 30px;
+   top: -1200px;
+} 
+
+.box_serralheria img{
+   position: absolute;
+}
+
+.close_serralheria{
+   color: white;
+   text-decoration: none;
+   position: absolute;
+   position: fixed;
+   background-color: black;
+   height: 40px;
+   width: 40px;
+   font-size: 35px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 4px;
+   margin-left: 1155px;
+}
+
+.close_serralheria:hover{
+      opacity: .6;
+}
+
+/* .button_mina_temp{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    margin: 70px;
+    
+} */
+
+#button_serralheria_temp:hover{
+    opacity: .6;
+}
+
+.background_serralheria{
+   border-radius: 10px;
+}
+
+
+
+.icon_lenhador{
+   position:fixed;
+   height: 130px;
+   margin:20px;
+   border-radius: 100%;
+}
+
+#box_display_lenhador{
+   position:fixed;
+   width: 250px;
+   height: 130px;
+   background-color:black;
+   margin-top: 20px;
+   margin-left: 74px;
+   border-radius: 10px;
+   color: white;
+
+}
+#display_lenhadores{
+   position:fixed;
+   color: white;
+   font-size:80px;
+   margin-left: 160px;
+   margin-top: 40px;
+}
+
+.alterar_lenhador{
+   position: fixed;
+}
+.input_text_lenhador{
+   background-color: black;
+   margin-top: 70px;
+   margin-left: 327px;
+   position: fixed;
+   font-size: 20px;
+   width: 140px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0 .5);
+   color: white;
+   text-align: center;   
+}
+.input_text_lenhador:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+.submit_lenhador{
+   position: fixed;
+   background-color: black;
+   margin-top: 115px;
+   margin-left: 327px;
+   font-size: 20px;
+   width: 150px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0 .5);
+   color: white;
+}
+.submit_lenhador:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+
+.box_alterar{
+   color:white;
+   background-color:black;
+   margin-top:20px;
+   margin-left:327px;
+   font-size: 20px;
+   padding: 5px;
+   border-radius: 5px;
+   width: 140px;
+   text-align: center;
+}
+
+.display_Madera_sec{
+   position:fixed;
+   color: white;
+   font-size:30px;
+   margin-left: 580px;
+   margin-top: 20px;
+   background-color: black;
+   padding: 13px;
+}
+
+.display_Madera_sec{
+   position:fixed;
+   color: white;
+   font-size:30px;
+   margin-left: 580px;
+   margin-top: 20px;
+   background-color: black;
+   padding: 13px;
+}
+.display_carvao_sec{
+   position:fixed;
+   color: white;
+   font-size:30px;
+   margin-left: 750px;
+   margin-top: 20px;
+   background-color: black;
+   padding: 13px;
+}
+.icon_madera_serralheria{
+   height: 55;
+   width: 60px;
+   margin-left: 520px;
+   margin-top: 20px;
+}
+
+.icon_carvao_serralheria{
+   height: 55;
+   width: 60px;
+   margin-left: 690px;
+   margin-top: 20px;
+}
+.button_1_distritos{
+   position: fixed;
+   background-color: black;
+   margin-top: 115px;
+   margin-left: 527px;
+   font-size: 20px;
+   width: 150px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0 .5);
+   color: white;
+}
+.button_1_distritos:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+
+.button_2_distritos{
+   position:fixed;
+   background-color: black;
+   margin-top: 115px;
+   margin-left: 727px;
+   font-size: 20px;
+   width: 150px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0 .5);
+   color: white;
+}
+.button_2_distritos:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+
+
+.table_serralheria{
+   border-collapse: collapse;
+   margin:30px;
+   margin-top: 220px;
+   position: fixed;
+}
+
+#thcolor{
+   color: white;
+}
+
+th, td{
+   text-align: left ;
+   padding: 10px;
+   font-size: 27px;
+}
+td{
+  
+   color: white;
+}
+  
+tr:nth-child(even){
+   background-color: #272727;
+}
+
+  
+th {
+ 
+   background-color: #0003a000;
+   color: rgba(255, 255, 255, 0);
+}
+
+#produzir_carvao{
+   color: rgb(0, 255, 13);
+   text-decoration: none;
+   padding:px;
+   margin-top:-10px;
+   font-size: 20px;
+}
+
+.box_produzindo_carvoeiro{
+   height: 600px;
+   width: 1010px;
+   background-color: rgba(170, 116, 77, 0.611);
+   position:fixed;
+   margin-top:170px;
+   margin-left:100px;
+}
+
+.icon_carvoeiro_produzindo{
+   height: 150px;
+   width: 150px;
+   margin: 40px;
+}
+
+.display_carvoeiros{
+   color: white;
+   position: fixed;
+   background-color: black;
+   font-size: 60px;
+   padding:40px;
+   margin-left: 180px;
+}
+
+.text_producao_carvao{
+   margin-top: 190px ;
+   color:red;
+   font-size: 100px;
+   text-align: center;
+}
+
+.button_coletar_01{
+   border: none;
+   position:fixed;
+   background-color: green;
+   font-size: 70px;
+   margin: 100px;
+   margin-left: 300px;
+}
+
+.button_coletar_01:hover{
+   background-color: greenyellow;
+}
+
+.tempo_restante_carvao{
+   position: fixed;
+   background-color: yellow;
+   font-size: 60px;
+   margin-left: 500px;
+   margin-top: 30px;
+}

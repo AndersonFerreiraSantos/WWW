@@ -1,0 +1,73 @@
+#bg_mina{
+   width: 100%;
+   padding: 100%;
+   top:0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: fixed;
+   display: none;
+}
+
+#bg_mina:target ~ .box_mina{
+   top:0px;
+   transition: all .1s;
+   transition-delay: .2s;
+}
+
+#bg_mina:target{
+   display: block;
+}
+
+.box_mina{
+   width: 1200;
+   height: 820;
+   position: absolute;
+   margin-left: 250px;
+   margin-top: 30px;
+   top: -1200px;
+}
+
+.box_mina img{
+   position: absolute;
+}
+
+.close_mina{
+   color: white;
+   text-decoration: none;
+   position: absolute;
+   position: fixed;
+   background-color: black;
+   height: 40px;
+   width: 40px;
+   font-size: 35px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 4px;
+   margin-left: 1155px;
+}
+
+.close_mina:hover{
+      opacity: .6;
+}
+
+.button_mina_temp{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    margin: 70px;
+    
+}
+
+#button_mina_temp:hover{
+    opacity: .6;
+}
+
+.background_mina{
+   border-radius: 10px;
+}

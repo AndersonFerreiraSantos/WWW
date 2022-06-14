@@ -1,0 +1,27 @@
+body{
+    
+}
+
+
+.city_Block0_Camada0{
+    height: 900px;
+    width: 1800px; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+/*fixa as imagem abaixo da tag FIGURE com a class=city...*/
+.containner figure.city_Block0_Camada0 img{
+    position:fixed; /*Fixa as imagem em uma camada mãe que nesse caso seria a figure (eu acho...)*/
+    /*padding-left: 15%; /*movimenta a camada inteira junto com os elementos fixados nela*/
+    
+}
+
+/*Margin define uma distancia da imagem até a borda sem deixar elmentado, ja o padding deixa.*/
+.Casa{
+    margin-left: 900px; /*movimentar a img*/
+    margin-top: 200px; /*movimentar a img*/
+    
+}
+    

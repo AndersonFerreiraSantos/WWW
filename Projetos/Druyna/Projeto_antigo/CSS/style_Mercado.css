@@ -1,0 +1,73 @@
+#bg_mercado{
+    width: 100%;
+    padding: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: none;
+ }
+ 
+ #bg_mercado:target ~ .box_mercado{
+    top:0px;
+    transition: all .1s;
+    transition-delay: .2s;
+ }
+ 
+ #bg_mercado:target{
+    display: block;
+ }
+ 
+ .box_mercado{
+    width: 1200;
+    height: 820;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+    top: -1200px;
+ }
+ 
+ .box_mercado img{
+    position: absolute;
+ }
+ 
+ .close_mercado {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 4px;
+    margin-left: 1155px;
+ }
+ 
+ .close_mercado:hover{
+       opacity: .6;
+ }
+ 
+ .button_mercado_temp{
+     color: white;
+     text-decoration: none;
+     position: absolute;
+     position: fixed;
+     background-color: black;
+     height: 60px;
+     width: 150px;
+     font-size: 20px;
+     text-align: center;
+     margin: 70px;
+     
+ }
+ 
+ #button_mercado_temp:hover{
+     opacity: .6;
+ }
+ 
+ .background_mercado{
+    border-radius: 10px;
+ }

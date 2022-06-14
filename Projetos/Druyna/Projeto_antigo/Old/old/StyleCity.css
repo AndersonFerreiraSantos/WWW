@@ -1,0 +1,38 @@
+*{
+
+
+body{
+
+}
+.cityBlock1{
+    height: 500px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+
+/* width: 100%; = Ocupar 100% da tela 
+
+    margin-left: auto;
+    margin-right: auto;
+
+ width: 100%;  
+  z-index:-1;     
+  width:20%;
+     bottom: 30%;
+     left: 50%;
+         z-index:-1;
+    top:50px;
+    position: absolute;
+    display: block;
+
+       margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    box-sizing:border-box;
+    font-size:100%;
+
+

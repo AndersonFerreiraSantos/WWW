@@ -1,0 +1,386 @@
+#bg_mina{
+   width: 100%;
+   padding: 100%;
+   top:0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.8);
+   position: fixed;
+   display: none;
+}
+
+#bg_mina:target ~ .box_mina{
+   top:0px;
+   transition: all .1s;
+   transition-delay: .2s;
+}
+
+#bg_mina:target{
+   display: block;
+}
+
+.box_mina{
+   width: 1200;
+   height: 820;
+   position: absolute;
+   margin-left: 250px;
+   margin-top: 30px;
+   top: -1200px;
+}
+
+.box_mina img{
+   position: absolute;
+}
+
+.close_mina{
+   color: white;
+   text-decoration: none;
+   position: absolute;
+   position: fixed;
+   background-color: black;
+   height: 40px;
+   width: 40px;
+   font-size: 35px;
+   text-align: center;
+   border-radius: 10px;
+   margin: 4px;
+   margin-left: 1155px;
+}
+
+.close_mina:hover{
+      opacity: .6;
+}
+
+/* .button_mina_temp{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    background-color: black;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    margin: 70px;
+    
+} */
+
+#button_mina_temp:hover{
+    opacity: .6;
+}
+
+.background_mina{
+   border-radius: 10px;
+}
+
+
+#mina_producao_1:hover{
+   background-color:black;
+   color: rgb(9, 255, 0);
+}
+
+#icon_minerio{
+   position: absolute;
+   height: 100px;
+   border-radius: 50px;
+   margin-top: 200px;
+   margin-left: 600px;
+}
+
+#icon_produzindo_mina_01{
+   height: 60px;
+   margin-top: 220px;
+   margin-left: 700px;
+}
+#icon_fornalha_mina_01{
+   border-radius: 20px;
+   height: 100px;
+   margin-top: 200px;
+   margin-left: 760px;
+}
+#icon_produzindo_mina_02{
+   height: 60px;
+   margin-top: 220px;
+   margin-left: 870px;
+}
+#icon_ferro_mina{
+   height: 60px;
+   margin-top: 200px;
+   margin-left: 930px;
+   height: 100px;
+   border-radius: 50px;
+}
+.producao_ferro_01{
+   background-color: rgb(212, 69, 69);
+   color: white;
+   font-size: 20px;
+   padding: 10px;
+   border-radius: 5px;
+   margin-left: 590px;
+   margin-top: 130px;
+
+}
+
+#img_coleta_recursos_01{
+   border-radius: 50px;
+   height: 400px;
+   margin-top: 270px;
+   margin-left: 350px;
+
+}
+
+#coleta_recursos_01:hover{
+   opacity: 0.6;
+}
+.coletar_lingotes{
+   background-color: rgb(47, 85, 64);
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 25px;
+   margin-top: 150px;
+   margin-left:330px;
+}
+/* -------------------------------------------------------------------------------------- */
+#mina_producao_1{
+   position:fixed;
+   font-size: 45px;
+   padding: 10px;
+   border:none;
+   width: 180px;
+   background-color:rgb(65, 65, 65);
+   border-radius: 10px;
+   text-decoration: none;
+   color:rgb(0, 0, 0);
+   margin-top: 100px;
+   margin-left:60px;
+}
+#icon_ferro_un{
+   height: 70px;
+   border-radius: 50px;
+   margin-top: 100px;
+   margin-left: -20px;
+}
+.background_color_mina{
+   color: rgb(255, 255, 255, .1);
+   position: fixed;
+   background-color: rgb(0, 0, 0);
+   height: 300px;
+   width: 1100px;
+   opacity: 0.4;
+   border-radius: 20px;
+   margin-top: 200px;
+}
+
+.produzir_lingotes{
+   background-color: rgb(255, 23, 23);
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 25px;
+   margin-top: 150px;
+   margin-left:330px;
+}
+
+
+.table_mina_1{
+   border-collapse: collapse;
+   margin:30px;
+   margin-top: 220px;
+   position: fixed;
+}
+
+#thcolor{
+   color: white;
+}
+
+th, td{
+   text-align: left ;
+   padding: 10px;
+   font-size: 27px;
+}
+td{
+  
+   color: white;
+}
+  
+tr:nth-child(even){
+   background-color: #272727;
+}
+
+  
+th {
+ 
+   background-color: #0003a000;
+   color: rgba(255, 255, 255, 0);
+}
+
+#athcolor{
+   color: rgb(0, 255, 13);
+   text-decoration: none;
+   padding:px;
+   margin-top:-10px;
+   font-size: 20px;
+}
+
+.icon_mina_minero{
+   position:fixed;
+   height: 130px;
+   margin-left:10px;
+   border-radius: 100%;
+}
+#box_minero{
+   position: fixed;
+   margin-left: 58px;
+   position: absolute;
+   height: 130px;
+   width: 250px;
+   background-color:black;
+   border-radius: 10px;
+   position: fixed;
+}
+#box_alterar_carvao{
+   background-color: brown;
+   font-size:60px;
+   margin-left: 580px;
+   margin-top: 30px;
+}
+#display_minero{
+   position: fixed;
+   color: white;
+   font-size:60px;
+   margin-left: 180px;
+   margin-top: 30px;
+}
+#box_alterar_mina{
+   position:absolute;
+   position: fixed;
+   text-align: center;
+   margin-left: 320px;
+   position: fixed;
+   font-size: 25px;
+   padding: 5px;
+   height: 30px;
+   width: 140px;
+   background-color:rgb(0, 0, 0);
+   color: white;
+   border-radius: 5px;
+}
+
+.valor_minero{
+      position: absolute;
+      background-color: black;
+      margin-top: -30px;
+      margin-left: 320px;
+      position: absolute;
+      font-size: 20px;
+      width: 140px;
+      border: none;
+      outline: none;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0 .5);
+      color: white;
+      text-align: center;   
+}
+.valor_minero:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+.submit_minero{
+   background-color: black;
+   margin-top: 15px;
+   margin-left: 320px;
+   position: absolute;
+   font-size: 20px;
+   width: 150px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0 .5);
+   color: white;
+}
+.submit_minero:hover{
+   background: rgba(37, 37, 37, 0.897);
+   color: white;
+}
+
+/* Hover é uma ação que ocorre quando colocamos mouse em cima do bjeto referenciado*/
+
+/*---------------------------------- Menu Lateral Mina ------------------------------------*/
+
+#botao_mina_1{
+   position: fixed;
+   height: 40px;
+   width: 120px;
+   margin-top: 275px;
+   margin-left: 965px;
+   border: none;
+   background-color: rgb(73, 26, 4);
+}
+
+#botao_mina_1:hover{
+   position: fixed;
+   background-color: rgb(224, 94, 1);
+   color: white;
+}
+
+#botao_mina_2{
+   position: fixed;
+   height: 40px;
+   width: 120px;
+   margin-top: 310px;
+   margin-left: 965px;
+   border: none;
+   background-color: rgb(73, 26, 4);
+}
+
+#botao_mina_2:hover{
+   background-color: rgb(224, 94, 1);
+   color: white;
+}
+#botao_mina_3{
+   position: fixed;
+   height: 40px;
+   width: 120px;
+   margin-top: 341px;
+   margin-left: 965px;
+   border: none;
+   background-color: rgb(73, 26, 4);
+}
+
+#botao_mina_3:hover{
+   background-color: rgb(224, 94, 1);
+   color: white;
+}
+#botao_mina_4{
+   position: fixed;
+   height: 40px;
+   width: 120px;
+   margin-top: 375px;
+   margin-left: 965px;;
+   border: none;
+   background-color: rgb(73, 26, 4);
+}
+
+#botao_mina_4:hover{
+   background-color: rgb(224, 94, 1);
+   color: white;
+}
+
+
+
+.erro_quantidade_mineros{
+   background-color: brown;
+   color: white;
+   padding: 45px;
+   border-radius: 5px;
+   margin-left: 500px;
+   margin-top: 0px;
+   text-align: center;
+}
+
+
+
+/*---------------------------------- Menu Lateral Mina ------------------------------------*/
+

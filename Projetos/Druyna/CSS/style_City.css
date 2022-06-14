@@ -1,0 +1,531 @@
+
+ur{
+   list-style: none;
+}
+
+.container{
+   margin: 0;
+   padding: 0;
+}
+
+.city_Block0_Camada0{
+    height: 900px;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*fixa as imagem abaixo da tag FIGURE com a class=city...*/
+.container figure.city_Block0_Camada0 img{
+    position:fixed; /*Fixa as imagem em uma camada mãe que nesse caso seria a figure (eu acho...)*/
+    /*padding-left: 15%; /*movimenta a camada inteira junto com os elementos fixados nela*/
+}
+
+/*Margin define uma distancia da imagem até a borda sem deixar elmentado, ja o padding deixa.*/
+.icon_armazem{
+    margin-left: 600px; /*movimentar a img*/
+    margin-top: 430px; /*movimentar a img*/
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+.icon_serralheria{
+   margin-left: 195px; /*movimentar a img*/
+   margin-top: 200px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 30%;
+   padding: 10px;
+}
+
+.icon_mina{
+   margin-left: 420px; /*movimentar a img*/
+   margin-top: 90px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 30%;
+   padding: 10px;
+}
+
+.icon_mercado{
+   margin-left: 960px; /*movimentar a img*/
+   margin-top: 420px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   padding: 10px;
+}
+.icon_pesquisa{
+   margin-left: 1690px; /*movimentar a img*/
+   margin-top: 10px; /*movimentar a img*/
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.bandeira_giff1{
+    margin-left: 444px;
+    margin-top: 253px;
+ }
+ .bandeira_giff2{
+    margin-left: 1195px;
+    margin-top: 295px;
+ }
+ .bandeira_giff3{
+    margin-left: 763px;
+    margin-top: 327px;
+ }
+ .bandeira_giff4{
+    margin-left: 1118px;
+    margin-top: 680px;
+ }
+ .bandeira_giff5{
+    margin-left: 980px;
+    margin-top: 657px;
+ }
+ .bandeira_giff6{
+    margin-left: 538px;
+    margin-top: 645px;
+ }
+ .bandeira_giff7{
+    margin-left: 430px;
+    margin-top: 626px;
+ }
+ .bandeira_giff8{
+    margin-left: 46px;
+    margin-top: 557px;
+ }
+ .bandeira_giff9{
+    margin-left: 75px;
+    margin-top: 441px;
+ }
+
+
+
+
+
+.text_logout a{
+   text-align: center;
+   margin: 20px;
+   font-size: 25px;
+   position: absolute;
+   border-radius: 10px;
+   text-decoration: none;
+   background-color: rgba(184, 119, 0, 0.774);
+   color: #666;
+   padding: 8px;
+   width: 90px;
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text_logout a:hover{
+   background-color: rgb(255, 0, 0);
+   color: white;
+}
+
+.container figure.city_Block0_Camada0 a{
+   position:fixed; /*Fixa as imagem em uma camada mãe que nesse caso seria a figure (eu acho...)*/
+   /*padding-left: 15%; /*movimenta a camada inteira junto com os elementos fixados nela*/
+}
+
+.text_usuario{
+   background-color: rgba(0, 0, 0, 0.3);
+   padding: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   font-size: 30px;
+   font-weight:bold;
+   color: rgb(255, 255, 255);
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 700px;
+   margin-top: 830px;
+}
+
+/*----------------------------------Menu Lateral------------------------------------*/
+
+.temporizador_recursos {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   position: absolute;
+
+}
+
+
+.temporizador_recursos a{
+   list-style: none;
+   background: rgba(255, 255, 255, 0.774);
+   border-radius: 10px;
+   color: black;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 8px;
+   display: block;
+} 
+
+/* Hover é uma ação que ocorre quando colocamos mouse em cima do bjeto referenciado*/
+.temporizador_Mina{
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+   margin-left:430px;
+   margin-top:110px;
+}
+.teste_ampulheta{
+   height: 40px;
+   border-radius: 100%;
+   margin-left:540px;
+   margin-top:97px;
+
+}
+
+
+/* .menu_lateral2{
+   margin-top: 50px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+
+}
+.menu_lateral3{
+   margin-top: 100px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral4{
+   margin-top: 150px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral5{
+   text-decoration: none;
+   margin-top: 200px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+} */
+/* .text_populacao{
+
+   margin: 20px;
+   font-size: 25px;
+   position: absolute;
+   border-radius: 10px;
+   text-decoration: none;
+   background-color: rgba(184, 119, 0, 0.774);
+   color: #666;
+   padding: 8px;
+   width: 90px;
+   font-weight:bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+.text_populacao_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:170px;
+   margin-top:20px;
+}
+.icon_populacao_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left:190px;
+   margin-top:20px;
+  
+}
+
+.text_pesquisa_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:390px;
+   margin-top:20px;
+}
+
+.icon_pesquisa_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left:405px;
+   margin-top:20px;
+}
+
+.text_minerio_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:610px;
+   margin-top:20px;
+}
+
+.icon_minerio_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left: 625px;
+   margin-top:20px;
+  
+}
+
+.text_madera_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:830px;
+   margin-top:20px;
+}
+
+.icon_madera_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left: 845px;
+   margin-top:20px;
+}
+
+.text_trigo_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:1050px;
+   margin-top:20px;
+   padding-left: 20px;
+}
+
+.icon_trigo_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left:1080px;
+   margin-top:20px;
+}
+
+.text_uva_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:1270px;
+   margin-top:20px;
+   padding-left: 20px;
+}
+
+.icon_uva_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left:1300px;
+   margin-top:20px;
+}
+
+.text_ouro_menu{
+   background-color: rgb(182, 182, 182);
+   border-radius: 20px;
+   width: 170px;
+   height: 45px;
+   text-align:center;
+   font-size: 40px;
+   margin-left:1490px;
+   margin-top:20px;
+   padding-left: 20px;
+}
+
+.icon_ouro_menu{
+   height: 45px;
+   border-radius: 20px;
+   margin-left:1520px;
+   margin-top:20px;
+}
+
+.horario{
+   margin-top: -20px;
+   margin-left: 300px;
+   color: white;
+   font-size: 20px;
+}
+
+/*--------------------------------------------*/
+
+.span{
+   margin:0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: 'Poppins', sans-serif;
+   display:flex;
+}
+
+/* .contador .next{
+   display:flex;
+   width:180px;
+   height: 50px;
+   border-radius: 40px;
+   border: 2px solid rgb(0, 0, 0);
+   transition: 0.5s;
+} */
+
+ /* .contador:hover{
+   width: 180px;
+   border:2px solid rgba(255,255,255,1);
+}  */
+ .contador .prev{
+   margin-top: -65px;
+   position:absolute;
+   top: 50%;
+   right:-20px;
+   display:block;
+   width:18px;
+   height: 18px;
+   border-top:4px solid #fff;
+   border-left:4px solid #fff;
+   z-index:1;
+   transform: translateY(-50%) rotate(315deg);
+   cursor: pointer;
+   opacity:1;
+}
+.contador .next:hover{
+   border-top:4px solid rgb(0, 255, 55);
+   border-left:4px solid rgb(0, 255, 55);
+}
+.contador .prev:hover{
+   border-top:4px solid rgb(255, 0, 0);
+   border-left:4px solid rgb(255, 0, 0);
+}
+/* .contador .prev{
+   opacity: 01;
+   right:20px;
+}  */
+.contador .next{
+   margin-top: -65px;
+   margin-left: 70px;
+   position:absolute;
+   top: 50%;
+   left:30px;
+   display:block;
+   width:18px;
+   height: 18px;
+   border-top:4px solid #fff;
+   border-left:4px solid #fff;
+   z-index:1;
+   transform: translateY(-50%) rotate(135deg);
+   cursor: pointer;
+   opacity:1; 
+
+}
+ /* .contador:hover .prev{
+   opacity: 01;
+   left:20px;
+}  */
+
+#box span{
+   position: absolute;
+
+   width:100; 
+   margin-top: -8px;
+   margin-left: -8px;
+   display:none; 
+
+   color:#ff0000;
+   font-weight:7000;
+   user-select:none;
+}
+
+ #box span:nth-child(1){
+   display: initial;
+} 
+
+
+
+
+/*---------------------------------- Menu Lateral Mina ------------------------------------*/
+
+/* .menu_lateral {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   position: absolute;
+   margin-left:1600px;
+   margin-top:200px;
+}
+.menu_lateral a:target{
+   background: rgba(192, 147, 0, 0.2);
+   border-radius: 10px;
+   color: #666;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 8px;
+   display: block;
+}
+
+.menu_lateral a{
+   background: rgba(184, 119, 0, 0.774);
+   border-radius: 10px;
+   color: #666;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 8px;
+   display: block;
+} */
+
+/* Hover é uma ação que ocorre quando colocamos mouse em cima do bjeto referenciado*/
+/* .menu_lateral a:hover {
+   background: rgb(255, 196, 0);
+   color: rgb(255, 255, 255);
+} */
+/* .menu_lateral1{
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+
+.menu_lateral2{
+   margin-top: 50px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+
+}
+.menu_lateral3{
+   margin-top: 100px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral4{
+   margin-top: 150px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+.menu_lateral5{
+   text-decoration: none;
+   margin-top: 200px;
+   width: 130px;
+   height: 30px;
+   text-align: center;
+   font-size: 25px;
+}
+
